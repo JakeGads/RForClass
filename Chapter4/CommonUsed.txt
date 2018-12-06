@@ -1,0 +1,4 @@
+setwd("/Users/jakeg/git/RForClass/Chapter4")
+savehistory(file = "Chapter4.Rhistory")
+
+SalesPersonDF <- read.table ( "/Users/jakeg/git/RForClass/Chapter4/SalesPersonData.txt" , header = TRUE)
